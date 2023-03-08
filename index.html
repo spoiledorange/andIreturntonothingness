@@ -15,7 +15,29 @@
             body { background-color: #000; color: whitesmoke; }
         </style>
     <head>
-        <h1> Suicide Note: </h1>
+        <style>
+          .container {
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+          }
+      
+          h1 {
+            margin-right: 20px;
+          }
+        </style>
+      </head>
+      
+      <body>
+        <div class="container">
+          <h1>Suicide Note:</h1>
+          <audio controls>
+            <source src="/Users/null/Desktop/Emptineess/Emptiness Will Eat the Witch.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </body>
+      
         <hr>
         <p>Happiness has been a mystery to me since I was a kid.</p>
         <p>I thought it is something I would be able to find when I grow up.</p>
@@ -86,11 +108,18 @@
 
     <body>
 
-        <audio preload="auto" autoplay="true" loop="true"; hidden="true";>
-
-            <source src="Emptiness Will Eat the Witch.mp3" type="audio/mpeg"> </audio>
-
+        <style>
+            audio {
+              display: none;
+            }
+          </style>
+          
+          <audio controls autoplay loop>
+            <source src="/Users/null/Desktop/Emptineess/Emptiness Will Eat the Witch.mp3" type="audio/mpeg">
+          </audio>
+          
 
 
     </body>
+
 </html>
